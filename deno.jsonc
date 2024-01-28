@@ -1,4 +1,10 @@
 {
+  "name": "common-types",
+  "description": "Commonly-used interfaces and type aliases.",
+  "version": "0.0.1",
+  "author": "integereleven",
+  "license": "MIT",
+  "status": "unstable",
   "lint": {
     "rules": {
       "tags": [

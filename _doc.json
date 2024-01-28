@@ -1,0 +1,1814 @@
+[
+  {
+    "kind": "variable",
+    "name": "VERSION",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/version.ts",
+      "line": 11,
+      "col": 13
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "The current release version of the intv8 common-types package."
+    },
+    "variableDef": {
+      "tsType": {
+        "repr": "0.0.1",
+        "kind": "literal",
+        "literal": {
+          "kind": "string",
+          "string": "0.0.1"
+        }
+      },
+      "kind": "const"
+    }
+  },
+  {
+    "kind": "interface",
+    "name": "IHelpful",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+      "line": 14,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Provides a reference URL to documentation on a class instance."
+    },
+    "interfaceDef": {
+      "extends": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "helpUrl",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 16,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "The reference URL to documentation on a class instance."
+          },
+          "params": [],
+          "computed": false,
+          "optional": false,
+          "tsType": {
+            "repr": "string",
+            "kind": "keyword",
+            "keyword": "string"
+          },
+          "typeParams": []
+        }
+      ],
+      "callSignatures": [],
+      "indexSignatures": [],
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "interface",
+    "name": "IPrimitiveConvertible",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+      "line": 32,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Provides methods to convert a class instance to primitive types."
+    },
+    "interfaceDef": {
+      "extends": [],
+      "methods": [
+        {
+          "name": "toBoolean",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 34,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Convert a class instance into a `boolean` value."
+          },
+          "optional": false,
+          "params": [],
+          "returnType": {
+            "repr": "boolean",
+            "kind": "keyword",
+            "keyword": "boolean"
+          },
+          "typeParams": []
+        },
+        {
+          "name": "toNumber",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 36,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Convert a class instance into a `number`."
+          },
+          "optional": false,
+          "params": [],
+          "returnType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          },
+          "typeParams": []
+        },
+        {
+          "name": "valueOf",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 38,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Get the numeric value of a class instance."
+          },
+          "optional": false,
+          "params": [],
+          "returnType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          },
+          "typeParams": []
+        },
+        {
+          "name": "toBigInt",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 40,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Convert a class instance into a `bigint`."
+          },
+          "optional": false,
+          "params": [],
+          "returnType": {
+            "repr": "bigint",
+            "kind": "keyword",
+            "keyword": "bigint"
+          },
+          "typeParams": []
+        },
+        {
+          "name": "toSymbol",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 42,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Convert a class instance into a `symbol`."
+          },
+          "optional": false,
+          "params": [],
+          "returnType": {
+            "repr": "symbol",
+            "kind": "keyword",
+            "keyword": "symbol"
+          },
+          "typeParams": []
+        },
+        {
+          "name": "toString",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 44,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Convert a class instance into a `string`."
+          },
+          "optional": false,
+          "params": [],
+          "returnType": {
+            "repr": "string",
+            "kind": "keyword",
+            "keyword": "string"
+          },
+          "typeParams": []
+        }
+      ],
+      "properties": [],
+      "callSignatures": [],
+      "indexSignatures": [],
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "interface",
+    "name": "IVersionDescriptor",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+      "line": 20,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Provides a collection of properties describing a version."
+    },
+    "interfaceDef": {
+      "extends": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "major",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 22,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "The major component of a version."
+          },
+          "params": [],
+          "computed": false,
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          },
+          "typeParams": []
+        },
+        {
+          "name": "minor",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 24,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "The minor component of a version."
+          },
+          "params": [],
+          "computed": false,
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          },
+          "typeParams": []
+        },
+        {
+          "name": "build",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 26,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "The build component of a version."
+          },
+          "params": [],
+          "computed": false,
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          },
+          "typeParams": []
+        },
+        {
+          "name": "revision",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 28,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "The revision component of a version."
+          },
+          "params": [],
+          "computed": false,
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          },
+          "typeParams": []
+        }
+      ],
+      "callSignatures": [],
+      "indexSignatures": [],
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "interface",
+    "name": "TCloneable",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+      "line": 79,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Provides a method to clone a class instance into a new instance with the same value."
+    },
+    "interfaceDef": {
+      "extends": [],
+      "methods": [
+        {
+          "name": "clone",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 81,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Creates a new instance of a class instance with the same value."
+          },
+          "optional": false,
+          "params": [],
+          "returnType": {
+            "repr": "T",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "T"
+            }
+          },
+          "typeParams": []
+        }
+      ],
+      "properties": [],
+      "callSignatures": [],
+      "indexSignatures": [],
+      "typeParams": [
+        {
+          "name": "T"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "interface",
+    "name": "TConverter",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+      "line": 48,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Provides a mechanism to convert a value from one type to another."
+    },
+    "interfaceDef": {
+      "extends": [],
+      "methods": [
+        {
+          "name": "convert",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 50,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Converts a value from type `F` to type `T`."
+          },
+          "optional": false,
+          "params": [
+            {
+              "kind": "identifier",
+              "name": "value",
+              "optional": false,
+              "tsType": {
+                "repr": "F",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "F"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "repr": "T",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "T"
+            }
+          },
+          "typeParams": []
+        }
+      ],
+      "properties": [],
+      "callSignatures": [],
+      "indexSignatures": [],
+      "typeParams": [
+        {
+          "name": "F"
+        },
+        {
+          "name": "T"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "interface",
+    "name": "TConvertible",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+      "line": 54,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Provides advanced functionality for converting a class instance to another type."
+    },
+    "interfaceDef": {
+      "extends": [
+        {
+          "repr": "IPrimitiveConvertible",
+          "kind": "typeRef",
+          "typeRef": {
+            "typeParams": null,
+            "typeName": "IPrimitiveConvertible"
+          }
+        }
+      ],
+      "methods": [
+        {
+          "name": "convertTo",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 57,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Convert a class instance into the type associated with the type-string."
+          },
+          "optional": false,
+          "params": [
+            {
+              "kind": "identifier",
+              "name": "typeString",
+              "optional": false,
+              "tsType": {
+                "repr": "S",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "S"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "repr": "",
+            "kind": "indexedAccess",
+            "indexedAccess": {
+              "readonly": false,
+              "objType": {
+                "repr": "T",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "T"
+                }
+              },
+              "indexType": {
+                "repr": "S",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "S"
+                }
+              }
+            }
+          },
+          "typeParams": [
+            {
+              "name": "S",
+              "constraint": {
+                "repr": "",
+                "kind": "typeOperator",
+                "typeOperator": {
+                  "operator": "keyof",
+                  "tsType": {
+                    "repr": "T",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "T"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "convert",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 60,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Convert a class instance into the type using a `Converter`."
+          },
+          "optional": false,
+          "params": [
+            {
+              "kind": "identifier",
+              "name": "converter",
+              "optional": false,
+              "tsType": {
+                "repr": "Converter",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "ThisType",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": [
+                          {
+                            "repr": "this",
+                            "kind": "this",
+                            "this": true
+                          }
+                        ],
+                        "typeName": "ThisType"
+                      }
+                    },
+                    {
+                      "repr": "T",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "T"
+                      }
+                    }
+                  ],
+                  "typeName": "Converter"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "repr": "T",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "T"
+            }
+          },
+          "typeParams": [
+            {
+              "name": "T"
+            }
+          ]
+        }
+      ],
+      "properties": [],
+      "callSignatures": [],
+      "indexSignatures": [],
+      "typeParams": [
+        {
+          "name": "T",
+          "constraint": {
+            "repr": "Record",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": [
+                {
+                  "repr": "string",
+                  "kind": "keyword",
+                  "keyword": "string"
+                },
+                {
+                  "repr": "any",
+                  "kind": "keyword",
+                  "keyword": "any"
+                }
+              ],
+              "typeName": "Record"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "kind": "interface",
+    "name": "TSerializable",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+      "line": 70,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Provides a method to serialize a class instance to another type."
+    },
+    "interfaceDef": {
+      "extends": [],
+      "methods": [
+        {
+          "name": "serialize",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 72,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Serialize the class instance."
+          },
+          "optional": false,
+          "params": [],
+          "returnType": {
+            "repr": "SerializedString",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": [
+                {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                }
+              ],
+              "typeName": "SerializedString"
+            }
+          },
+          "typeParams": []
+        },
+        {
+          "name": "deserialize",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 75,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Deserialize the serialized string into a new instance."
+          },
+          "optional": false,
+          "params": [
+            {
+              "kind": "identifier",
+              "name": "serialized",
+              "optional": false,
+              "tsType": {
+                "repr": "SerializedString",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": [
+                    {
+                      "repr": "T",
+                      "kind": "typeRef",
+                      "typeRef": {
+                        "typeParams": null,
+                        "typeName": "T"
+                      }
+                    }
+                  ],
+                  "typeName": "SerializedString"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "repr": "T",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "T"
+            }
+          },
+          "typeParams": []
+        }
+      ],
+      "properties": [],
+      "callSignatures": [],
+      "indexSignatures": [],
+      "typeParams": [
+        {
+          "name": "T"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "interface",
+    "name": "TServicable",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+      "line": 64,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Provides a method to retrieve a service from a class instance."
+    },
+    "interfaceDef": {
+      "extends": [],
+      "methods": [
+        {
+          "name": "getService",
+          "kind": "method",
+          "location": {
+            "filename": "file:///C:/repos/intv8/common-types/src/types/interfaces.ts",
+            "line": 66,
+            "col": 2
+          },
+          "jsDoc": {
+            "doc": "Retrieves the service mapped to the specified service identifier."
+          },
+          "optional": false,
+          "params": [
+            {
+              "kind": "identifier",
+              "name": "serviceId",
+              "optional": false,
+              "tsType": {
+                "repr": "S",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "S"
+                }
+              }
+            }
+          ],
+          "returnType": {
+            "repr": "",
+            "kind": "indexedAccess",
+            "indexedAccess": {
+              "readonly": false,
+              "objType": {
+                "repr": "T",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "T"
+                }
+              },
+              "indexType": {
+                "repr": "S",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "S"
+                }
+              }
+            }
+          },
+          "typeParams": [
+            {
+              "name": "S",
+              "constraint": {
+                "repr": "",
+                "kind": "typeOperator",
+                "typeOperator": {
+                  "operator": "keyof",
+                  "tsType": {
+                    "repr": "T",
+                    "kind": "typeRef",
+                    "typeRef": {
+                      "typeParams": null,
+                      "typeName": "T"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "properties": [],
+      "callSignatures": [],
+      "indexSignatures": [],
+      "typeParams": [
+        {
+          "name": "T",
+          "constraint": {
+            "repr": "Record",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": [
+                {
+                  "repr": "",
+                  "kind": "union",
+                  "union": [
+                    {
+                      "repr": "string",
+                      "kind": "keyword",
+                      "keyword": "string"
+                    },
+                    {
+                      "repr": "number",
+                      "kind": "keyword",
+                      "keyword": "number"
+                    },
+                    {
+                      "repr": "symbol",
+                      "kind": "keyword",
+                      "keyword": "symbol"
+                    }
+                  ]
+                },
+                {
+                  "repr": "any",
+                  "kind": "keyword",
+                  "keyword": "any"
+                }
+              ],
+              "typeName": "Record"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "AnonymousObject",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 103,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Alias for an object with any number of properties, each of which are of unknown, or unspecified, value."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "Record",
+        "kind": "typeRef",
+        "typeRef": {
+          "typeParams": [
+            {
+              "repr": "",
+              "kind": "union",
+              "union": [
+                {
+                  "repr": "number",
+                  "kind": "keyword",
+                  "keyword": "number"
+                },
+                {
+                  "repr": "string",
+                  "kind": "keyword",
+                  "keyword": "string"
+                },
+                {
+                  "repr": "symbol",
+                  "kind": "keyword",
+                  "keyword": "symbol"
+                }
+              ]
+            },
+            {
+              "repr": "unknown",
+              "kind": "keyword",
+              "keyword": "unknown"
+            }
+          ],
+          "typeName": "Record"
+        }
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "Codebase",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 63,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Specifies the integereleven recognized types of codebases."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "module",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "module"
+            }
+          },
+          {
+            "repr": "package",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "package"
+            }
+          },
+          {
+            "repr": "library",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "library"
+            }
+          },
+          {
+            "repr": "application",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "application"
+            }
+          },
+          {
+            "repr": "extension",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "extension"
+            }
+          },
+          {
+            "repr": "framework",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "framework"
+            }
+          },
+          {
+            "repr": "plugin",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "plugin"
+            }
+          },
+          {
+            "repr": "adapter",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "adapter"
+            }
+          },
+          {
+            "repr": "toolkit",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "toolkit"
+            }
+          },
+          {
+            "repr": "sdk",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "sdk"
+            }
+          },
+          {
+            "repr": "api",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "api"
+            }
+          },
+          {
+            "repr": "platform",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "platform"
+            }
+          },
+          {
+            "repr": "engine",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "engine"
+            }
+          },
+          {
+            "repr": "theme",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "theme"
+            }
+          }
+        ]
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "Constructor",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 122,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Alias for the constructor of class of type `T`."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "fnOrConstructor",
+        "fnOrConstructor": {
+          "constructor": true,
+          "tsType": {
+            "repr": "T",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "T"
+            }
+          },
+          "params": [
+            {
+              "kind": "rest",
+              "arg": {
+                "kind": "identifier",
+                "name": "args",
+                "optional": false,
+                "tsType": null
+              },
+              "tsType": {
+                "repr": "",
+                "kind": "array",
+                "array": {
+                  "repr": "any",
+                  "kind": "keyword",
+                  "keyword": "any"
+                }
+              }
+            }
+          ],
+          "typeParams": []
+        }
+      },
+      "typeParams": [
+        {
+          "name": "T"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "Converter",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 128,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "A function or object converting a value from one type to another."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "TConverter",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": [
+                {
+                  "repr": "F",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "F"
+                  }
+                },
+                {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                }
+              ],
+              "typeName": "TConverter"
+            }
+          },
+          {
+            "repr": "ConverterFn",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": [
+                {
+                  "repr": "F",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "F"
+                  }
+                },
+                {
+                  "repr": "T",
+                  "kind": "typeRef",
+                  "typeRef": {
+                    "typeParams": null,
+                    "typeName": "T"
+                  }
+                }
+              ],
+              "typeName": "ConverterFn"
+            }
+          }
+        ]
+      },
+      "typeParams": [
+        {
+          "name": "F"
+        },
+        {
+          "name": "T"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "ConverterFn",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 125,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "A function converting a value from one type (`F`) to another(`T`)."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "fnOrConstructor",
+        "fnOrConstructor": {
+          "constructor": false,
+          "tsType": {
+            "repr": "T",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "T"
+            }
+          },
+          "params": [
+            {
+              "kind": "identifier",
+              "name": "value",
+              "optional": false,
+              "tsType": {
+                "repr": "F",
+                "kind": "typeRef",
+                "typeRef": {
+                  "typeParams": null,
+                  "typeName": "F"
+                }
+              }
+            }
+          ],
+          "typeParams": []
+        }
+      },
+      "typeParams": [
+        {
+          "name": "F"
+        },
+        {
+          "name": "T"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "DecoratorType",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 50,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Specifies the types of TypeScript decorator targets."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "class",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "class"
+            }
+          },
+          {
+            "repr": "method",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "method"
+            }
+          },
+          {
+            "repr": "property",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "property"
+            }
+          },
+          {
+            "repr": "parameter",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "parameter"
+            }
+          },
+          {
+            "repr": "accessor",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "accessor"
+            }
+          }
+        ]
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "Defined",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 116,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Alias for value, that if defined, is of type `T`, otherwise is of type `never`."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "conditional",
+        "conditionalType": {
+          "checkType": {
+            "repr": "T",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "T"
+            }
+          },
+          "extendsType": {
+            "repr": "undefined",
+            "kind": "keyword",
+            "keyword": "undefined"
+          },
+          "trueType": {
+            "repr": "never",
+            "kind": "keyword",
+            "keyword": "never"
+          },
+          "falseType": {
+            "repr": "T",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "T"
+            }
+          }
+        }
+      },
+      "typeParams": [
+        {
+          "name": "T"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "GenericSoftwareOperation",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 39,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Specifies a generic operation."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "operation",
+        "kind": "literal",
+        "literal": {
+          "kind": "string",
+          "string": "operation"
+        }
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "Native",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 106,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Alias for all of the native types in JavaScript."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "Primitive",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "Primitive"
+            }
+          },
+          {
+            "repr": "Function",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "Function"
+            }
+          },
+          {
+            "repr": "Date",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "Date"
+            }
+          },
+          {
+            "repr": "Error",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "Error"
+            }
+          },
+          {
+            "repr": "RegExp",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "RegExp"
+            }
+          },
+          {
+            "repr": "AnonymousObject",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "AnonymousObject"
+            }
+          },
+          {
+            "repr": "Array",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": [
+                {
+                  "repr": "unknown",
+                  "kind": "keyword",
+                  "keyword": "unknown"
+                }
+              ],
+              "typeName": "Array"
+            }
+          }
+        ]
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "NonPracticableSoftwareOperation",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 19,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Specifies the types of non-practicable operations."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "process",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "process"
+            }
+          },
+          {
+            "repr": "event",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "event"
+            }
+          }
+        ]
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "Nullish",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 97,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Alias for types that are nullish, meaning they are `null` or `undefined`."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "null",
+            "kind": "keyword",
+            "keyword": "null"
+          },
+          {
+            "repr": "undefined",
+            "kind": "keyword",
+            "keyword": "undefined"
+          }
+        ]
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "OneOrMany",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 119,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Alias for a value that can be either a single value of type `T`, or an array of values of type `T`."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "T",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "T"
+            }
+          },
+          {
+            "repr": "",
+            "kind": "array",
+            "array": {
+              "repr": "T",
+              "kind": "typeRef",
+              "typeRef": {
+                "typeParams": null,
+                "typeName": "T"
+              }
+            }
+          }
+        ]
+      },
+      "typeParams": [
+        {
+          "name": "T"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "PracticableSoftwareOperation",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 14,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Specifies the types of practicable operations."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "action",
+        "kind": "literal",
+        "literal": {
+          "kind": "string",
+          "string": "action"
+        }
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "Primitive",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 100,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Alias for types that are immutable and primitive, meaning they are `Scalar` or `Nullish`."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "Scalar",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "Scalar"
+            }
+          },
+          {
+            "repr": "Nullish",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "Nullish"
+            }
+          }
+        ]
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "Scalar",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 94,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Alias for types that are scalar, meaning can be represented as a single value."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "boolean",
+            "kind": "keyword",
+            "keyword": "boolean"
+          },
+          {
+            "repr": "bigint",
+            "kind": "keyword",
+            "keyword": "bigint"
+          },
+          {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          },
+          {
+            "repr": "string",
+            "kind": "keyword",
+            "keyword": "string"
+          },
+          {
+            "repr": "symbol",
+            "kind": "keyword",
+            "keyword": "symbol"
+          }
+        ]
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "SerializedString",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 131,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "The string serialized representation of an object."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "string",
+        "kind": "keyword",
+        "keyword": "string"
+      },
+      "typeParams": [
+        {
+          "name": "T"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "SharedSoftwareOperation",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 26,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Specifies the types of operations that can be practicable and non-practicable."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "request",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "request"
+            }
+          },
+          {
+            "repr": "task",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "task"
+            }
+          },
+          {
+            "repr": "workflow",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "workflow"
+            }
+          },
+          {
+            "repr": "build",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "build"
+            }
+          },
+          {
+            "repr": "trigger",
+            "kind": "literal",
+            "literal": {
+              "kind": "string",
+              "string": "trigger"
+            }
+          }
+        ]
+      },
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "typeAlias",
+    "name": "SoftwareOperation",
+    "location": {
+      "filename": "file:///C:/repos/intv8/common-types/src/types/types.ts",
+      "line": 43,
+      "col": 0
+    },
+    "declarationKind": "export",
+    "jsDoc": {
+      "doc": "Specifies all the types of software operations."
+    },
+    "typeAliasDef": {
+      "tsType": {
+        "repr": "",
+        "kind": "union",
+        "union": [
+          {
+            "repr": "PracticableSoftwareOperation",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "PracticableSoftwareOperation"
+            }
+          },
+          {
+            "repr": "NonPracticableSoftwareOperation",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "NonPracticableSoftwareOperation"
+            }
+          },
+          {
+            "repr": "SharedSoftwareOperation",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "SharedSoftwareOperation"
+            }
+          },
+          {
+            "repr": "GenericSoftwareOperation",
+            "kind": "typeRef",
+            "typeRef": {
+              "typeParams": null,
+              "typeName": "GenericSoftwareOperation"
+            }
+          }
+        ]
+      },
+      "typeParams": []
+    }
+  }
+]
